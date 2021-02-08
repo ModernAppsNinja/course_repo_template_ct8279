@@ -1,0 +1,56 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>vSphere with Tanzu 101 – Closing Summary</title><link>https://modernappsninja.github.io/vSphereTanzu101_VT7933/docs/closingsummary/</link><description>Recent content in Closing Summary on vSphere with Tanzu 101</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Mon, 12 Oct 2020 20:17:08 -0700</lastBuildDate><atom:link href="https://modernappsninja.github.io/vSphereTanzu101_VT7933/docs/closingsummary/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Resources and References</title><link>https://modernappsninja.github.io/vSphereTanzu101_VT7933/docs/closingsummary/resourcesandreferences/</link><pubDate>Mon, 12 Oct 2020 20:18:29 -0700</pubDate><guid>https://modernappsninja.github.io/vSphereTanzu101_VT7933/docs/closingsummary/resourcesandreferences/</guid><description>
+&lt;p>&lt;strong>Links to additional materials:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>For more information on vSphere with Tanzu check out the &lt;a href="https://www.vmware.com/products/vsphere.html">vSphere
+product&lt;/a> page.&lt;/li>
+&lt;li>&lt;a href="https://blogs.vmware.com/vsphere/2020/09/announcing-vsphere-with-tanzu.html">vSphere with
+Tanzu&lt;/a> by
+Kit Colbert&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=d6Hc2ceghIk&amp;amp;feature=youtu.be">vSphere with Tanzu -
+YouTube&lt;/a> by
+Sheldon D'Paiva &lt;/li>
+&lt;li>ebook: &lt;a href="https://www.vmware.com/learn/648341_REG.html">Deliver Developer-Ready Infrastructure Using vSphere with
+Tanzu&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://kube.academy/">KubeAcademy&lt;/a> courses are composed of a
+series of bite-size video lessons - terrific resource for learning
+about containers, Kubernetes, and Cloud Native Concepts.&lt;/li>
+&lt;li>&lt;a href="https://tanzu.vmware.com/content/blog/simply-scaling-a-tanzu-kubernetes-cluster-with-the-tkg-service-for-vsphere">Scaling a Tanzu
+Kubernetes&lt;/a> Cluster
+by Kenny Coleman&lt;/li>
+&lt;li>&lt;a href="https://tanzu.vmware.com/content/blog/an-elevated-view-of-the-tanzu-kubernetes-grid-service-architecture">An Elevated View of the Tanzu Kubernetes Kubernetes Grid Service
+Architecture&lt;/a> by
+Kenny Coleman&lt;/li>
+&lt;li>&lt;a href="https://tanzu.vmware.com/content/blog/dissecting-a-tanzu-kubernetes-cluster-spec-with-the-tkg-service-for-vsphere">Dissecting a Tanzu Kubernetes Cluster Spec with the TKG Service for
+vSphere&lt;/a> by
+Kenny Coleman&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Web:&lt;/strong> &lt;a href="https://tanzu.vmware.com">https://tanzu.vmware.com&lt;/a>&lt;/p>
+&lt;p>&lt;strong>Blog:&lt;/strong> &lt;a href="https://tanzu.vmware.com/blog">https://tanzu.vmware.com/blog&lt;/a>&lt;/p>
+&lt;p>&lt;strong>Twitter:&lt;/strong> @vmwaretanzu&lt;/p>
+&lt;p>&lt;strong>Email:&lt;/strong> asktanzu@vmware.com&lt;/p></description></item><item><title>Docs: Course Survey</title><link>https://modernappsninja.github.io/vSphereTanzu101_VT7933/docs/closingsummary/coursesurvey/</link><pubDate>Mon, 12 Oct 2020 20:20:14 -0700</pubDate><guid>https://modernappsninja.github.io/vSphereTanzu101_VT7933/docs/closingsummary/coursesurvey/</guid><description>
+&lt;p>Your Survey response is critical to help ensure we can support the
+business case to continue this program and is greatly appreciated!&lt;/p>
+&lt;p>Completion of the course survey is required to receive a certificate of
+completion for this course.&lt;/p>
+&lt;p>Please complete the Survey for this course at this
+&lt;a href="https://forms.microsoft.com/Pages/ResponsePage.aspx?id=yjiRs-48Skuk1s2D2d1i8AaekO_nWSVMuwFdpjcgcJtURUJJVE1aSUFYTDFYOTdNVURMWE5XOEVFSS4u">link&lt;/a>.&lt;/p></description></item><item><title>Docs: Course Feedback</title><link>https://modernappsninja.github.io/vSphereTanzu101_VT7933/docs/closingsummary/coursefeedback/</link><pubDate>Mon, 12 Oct 2020 20:20:26 -0700</pubDate><guid>https://modernappsninja.github.io/vSphereTanzu101_VT7933/docs/closingsummary/coursefeedback/</guid><description>
+&lt;p>Your feedback for this course is critical to help ensure we can improve
+course content and quality and is greatly appreciated!&lt;/p>
+&lt;p>Completion of the feedback form (issue ticket) is required to receive a
+certificate of completion for this course.&lt;/p>
+&lt;p>The link below opens a ticket where you can provide any free-text
+response you would like to provide including reports of problems or
+issues, suggestions for improvement, or general feedback. You can also
+paste images in the feedback form. &lt;/p>
+&lt;p>Please complete the Feedback form for this course at this
+&lt;a href="https://github.com/ModernAppsNinja/CourseFeedback/issues/new?assignees=&amp;amp;labels=COU-VT7933&amp;amp;template=COU-VT7933-feedback.md&amp;amp;title=">link&lt;/a>.&lt;/p></description></item><item><title>Docs: Course Complete</title><link>https://modernappsninja.github.io/vSphereTanzu101_VT7933/docs/closingsummary/coursecomplete/</link><pubDate>Mon, 12 Oct 2020 20:20:53 -0700</pubDate><guid>https://modernappsninja.github.io/vSphereTanzu101_VT7933/docs/closingsummary/coursecomplete/</guid><description>
+&lt;p>Thank you for completing the course!&lt;/p>
+&lt;p>Please see the progress tab in this course to see a record of your
+assessment grading. If you have completed the course assessments with a
+score above the passing grade, the progress tab will display the option
+to receive a certificate of course completion.&lt;/p>
+&lt;p>Please check out &lt;a href="https://modernapps.ninja/">modernapps.ninja&lt;/a> to see
+additional courses, and join our &lt;a href="https://groups.google.com/forum/#!forum/modernappsninja/join">google
+group&lt;/a> to
+receive regular updates as new courses and content are added
+frequently.&lt;/p></description></item></channel></rss>
