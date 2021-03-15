@@ -146,11 +146,26 @@ community.&lt;/p>
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
 &lt;iframe src="https://www.youtube.com/embed/5V03CSMkm2c" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
 &lt;/div></description></item><item><title>Docs: Community Membership and Course Registration</title><link>https://modernappsninja.github.io/course_repo_template_ct8279/docs/courseintroduction/membershipregistration/</link><pubDate>Mon, 12 Oct 2020 18:34:25 -0700</pubDate><guid>https://modernappsninja.github.io/course_repo_template_ct8279/docs/courseintroduction/membershipregistration/</guid><description>
+&lt;ul>
+&lt;li>&lt;a href="#requirements-for-tests-and-course-completion-certificates">Requirements for tests and course completion certificates&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#join-the-modernapps-ninja-community">Join the ModernApps Ninja Community!&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#register-for-this-course">Register for this course&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#step-1---open-the-new-course-registration-document-link">Step 1 - Open the new course registration document link&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#step-2---name-your-file">Step 2 - Name your file&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#step-3---add-a-line-to-your-file">Step 3 - Add a line to your file&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#step-4---submit-your-registration-document">Step 4 - Submit your registration document&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
 &lt;h2 id="requirements-for-tests-and-course-completion-certificates">Requirements for tests and course completion certificates&lt;/h2>
-&lt;p>ModernApps Ninja learning content is free and open to anyone to view, however to take tests and recieve certificates of completion for courses, you must sign up for a free community membership, &lt;strong>and&lt;/strong> register for this course, per the instructions below.&lt;/p>
+&lt;p>ModernApps Ninja learning content is free and open to anyone to view, however to take tests and receive certificates of completion for courses, you must sign up for a free community membership, &lt;strong>and&lt;/strong> register for this course, per the instructions below.&lt;/p>
 &lt;h3 id="join-the-modernapps-ninja-community">Join the ModernApps Ninja Community!&lt;/h3>
 &lt;p>In addition to unlocking the ability to take tests and recieve course completion certificates, joining the ModernApps Ninja Community has a number of other benefits, and is a completely free program.&lt;/p>
-&lt;p>&lt;a href="https://modernapps.ninja/about/membership.html">Please click here to learn more about member benefits and to join the community!&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://modernapps.ninja/about/membership">Please click here to learn more about member benefits and to join the community!&lt;/a>&lt;/p>
 &lt;h3 id="register-for-this-course">Register for this course&lt;/h3>
 &lt;p>You must first be a member of the community before you can register for this course. Ensure that you have fully completed the community member registration process before proceeding.&lt;/p>
 &lt;p>To register for this course, follow the detailed instructions below to post a simple file with your github username to this repository. This process, while simple to follow, helps participants to gain experience and comfort, and validate their knowledge with foundational devops tools and process.&lt;/p>
@@ -160,11 +175,11 @@ community.&lt;/p>
 &lt;p>&lt;strong>The Course Registration Process Requires that you have a github account, and that you are signed in using the github account you want to be registered for the course. If you attempt to register a different account than the account you are signed in as, the process will fail.&lt;/strong>&lt;/p>
 &lt;p>The following link will direct your browser to a github web-based document editor that is used to submit new files or updates to this github repository. You will need to type in a few values and then submit the document as detailed in the following steps.&lt;/p>
 &lt;p>Please right click the following link and select the option to open it in a new browser tab, so you can keep this instruction page open in the current tab to guide you through the process.&lt;/p>
-&lt;p>&lt;a href="https://github.com/modernappsninja/course_repo_template_ct8279/new/main/static/admin/userdata/registered_members">Right Click Here and select the option to open link in new tab to view the course registration form&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://github.com/ModernAppsNinja/vSphereTanzu301_vt4163/tree/main/static/admin/userdata/registered_members">Right Click Here and select the option to open link in new tab&lt;/a> and click on &lt;code>Add File &amp;gt; Create new file&lt;/code>&lt;/p>
 &lt;h4 id="step-2---name-your-file">Step 2 - Name your file&lt;/h4>
 &lt;p>Note the page displays a message that &lt;code>You’re making changes in a project you don’t have write access to. Submitting a change will write it to a new branch in your fork YOUR_GITHUB_USERNAME/COURSE_REPOSITORY_NAME, so you can send a pull request.&lt;/code>&lt;/p>
 &lt;p>The pull request process works by submitting a copy of your new or updated file to the repository, which will only be applied to the course repository if a course administrator approves the request. Because you do not have write access to the repository, github will create a special copy called a &lt;code>fork&lt;/code> of the course repository within your github account with your new or updated files, and use your copy to save the updates you&amp;rsquo;re submitting to the official course repository as shown in the following steps.&lt;/p>
-&lt;p>In your browser tab to the new registration document, above the document editor in the file name field, type in the name of the file in the format &lt;code>your_lowercase_github_username.yml&lt;/code>, replacing the value your_lowercase_github_username with the username for your github account in lowercase letters.&lt;/p>
+&lt;p>In your browser tab to the new registration document, above the document editor in the file name field, type in the name of the file in the format &lt;code>your_github_username.yml&lt;/code>, replacing the value &lt;strong>your_github_username&lt;/strong> with the username for your github account.&lt;/p>
 &lt;p>The following screenshot shows an example of this step using the github username &lt;code>Oni-no-Hanzo&lt;/code>&lt;/p>
 &lt;p>&lt;strong>Note:&lt;/strong> If needed, you can verify your github username by clicking on your github profile menu, which can be found on the upper right hand corner on any github page if you are signed in.&lt;/p>
 &lt;p>&lt;img src="https://modernapps.ninja/course_repo_template_ct8279/admin/assets/images/course_registration_file_naming.png" alt="Screenshot of File Naming">&lt;/p>
@@ -173,7 +188,7 @@ community.&lt;/p>
 &lt;p>&lt;img src="https://modernapps.ninja/course_repo_template_ct8279/admin/assets/images/course_registration_file_editing.png" alt="Screenshot of File Editing">&lt;/p>
 &lt;h4 id="step-4---submit-your-registration-document">Step 4 - Submit your registration document&lt;/h4>
 &lt;p>Scroll to the bottom of the registration document page and click &lt;code>Propose New File&lt;/code> as shown in the following image:&lt;/p>
-&lt;p>&lt;img src="https://modernapps.ninja/course_repo_template_ct8279/admin/assets/images/propose_new_file.png" alt="Propose New File Screenshot">&lt;/p>
+&lt;p>&lt;img src="https://github.com/ModernAppsNinja/course_repo_template_ct8279/new/main/static/admin/userdata/registered_members" alt="Propose New File Screenshot">&lt;/p>
 &lt;p>After you click &lt;code>Propose New File&lt;/code>, your browser will be redirected to the &lt;code>Comparing Changes&lt;/code> page with all the configuration all setup so all you sould need to do is click &lt;code>Create Pull Request&lt;/code> &amp;mdash; but before you click, please review the other details shown on the comparing changes and observe that the file you created and the lines added are shown, so you can easily review and verify your proposed changes before submitting.&lt;/p>
 &lt;p>After you click &lt;code>Create pull request&lt;/code>, an automated GitHub Action worklow will initiate that will do the following actions:&lt;/p>
 &lt;ul>
@@ -396,7 +411,30 @@ Question3:
 &lt;/div></description></item><item><title>Docs: Demo - Tanzu Mission Control for Tanzu Standard</title><link>https://modernappsninja.github.io/course_repo_template_ct8279/docs/vsphere7withtanzutechnicaloverview/demotmcfortanzustandard/</link><pubDate>Mon, 12 Oct 2020 20:06:48 -0700</pubDate><guid>https://modernappsninja.github.io/course_repo_template_ct8279/docs/vsphere7withtanzutechnicaloverview/demotmcfortanzustandard/</guid><description>
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
 &lt;iframe src="https://www.youtube.com/embed/vK-scacOK1w" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
-&lt;/div></description></item><item><title>Docs: Resources and References</title><link>https://modernappsninja.github.io/course_repo_template_ct8279/docs/closingsummary/resourcesandreferences/</link><pubDate>Mon, 12 Oct 2020 20:18:29 -0700</pubDate><guid>https://modernappsninja.github.io/course_repo_template_ct8279/docs/closingsummary/resourcesandreferences/</guid><description>
+&lt;/div></description></item><item><title>Docs: Course Completion Certificate</title><link>https://modernappsninja.github.io/course_repo_template_ct8279/docs/closingsummary/completioncertificate/</link><pubDate>Fri, 09 Oct 2020 03:15:26 -0700</pubDate><guid>https://modernappsninja.github.io/course_repo_template_ct8279/docs/closingsummary/completioncertificate/</guid><description>
+&lt;p>If you have completed all tests in the course and recieved over 70% correct responses, you can make an automated request to recieve a certificate of completion for this course.&lt;/p>
+&lt;p>To request your certificate of completion:&lt;/p>
+&lt;ol>
+&lt;li>In a seperate browser tab navigate to: &lt;a href="https://github.com/ModernAppsNinja/vSphereTanzu301_vt4163/tree/main/static/admin/userdata/certs_awarded">https://github.com/ModernAppsNinja/vSphereTanzu301_vt4163/tree/main/static/admin/userdata/certs_awarded&lt;/a>&lt;/li>
+&lt;li>Click on the &lt;code>Add file&lt;/code> button to add a new file&lt;/li>
+&lt;li>Name the file using your own github username in the format &lt;code>yourgithubusername.yml&lt;/code>&lt;/li>
+&lt;li>In the body of the file type: &lt;code>Status: Completed&lt;/code>&lt;/li>
+&lt;li>Click on &lt;code>Propose new file&lt;/code> and then &lt;code>Create pull request&lt;/code> to submit your new file.&lt;/li>
+&lt;/ol>
+&lt;p>When you submit your new file as described in the steps above (also called making a pull request) it will trigger an automated github action workflow that will:&lt;/p>
+&lt;ul>
+&lt;li>Compare the total quantity of tests in the course with the quantity of tests you have completed to ensure you have completed all required tests for the course&lt;/li>
+&lt;li>Tabulate the total quantity of all test questions from all tests&lt;/li>
+&lt;li>Compare the quantity of questions you have answered correctly against the total quantity of questions for all tests to ensure you have attained a minimum of 70% correct answers&lt;/li>
+&lt;li>Post grade report and updated course record card to your member repository&lt;/li>
+&lt;li>Append a message to the pull request to notify the requesting user the course grading is complete, the result, and links to the updated grade report and course record card.
+&lt;ul>
+&lt;li>The requesting members github account will be mentioned in the posted message, which will trigger a github notification to the requestors github account and associated email address.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>In the event that a user requests a certificate and does not have the minimum required grade to pass, a grade report will be provided that will include details on the percent of correct answers for each test in the course, highlighting which test(s) may need to be retaken to achieve a passing grade. Members can then retake any tests necesarry to increase their grade, and then repeat the above process again to request that the certificate service run again.&lt;/p>
+&lt;p>If you encounter any problems with testing or with the certificate process, please open an issue ticket on this course.&lt;/p></description></item><item><title>Docs: Resources and References</title><link>https://modernappsninja.github.io/course_repo_template_ct8279/docs/closingsummary/resourcesandreferences/</link><pubDate>Mon, 12 Oct 2020 20:18:29 -0700</pubDate><guid>https://modernappsninja.github.io/course_repo_template_ct8279/docs/closingsummary/resourcesandreferences/</guid><description>
 &lt;p>&lt;strong>Links to additional materials:&lt;/strong>&lt;/p>
 &lt;ul>
 &lt;li>For more information on vSphere with Tanzu check out the &lt;a href="https://www.vmware.com/products/vsphere.html">vSphere
@@ -425,33 +463,8 @@ Kenny Coleman&lt;/li>
 &lt;p>&lt;strong>Web:&lt;/strong> &lt;a href="https://tanzu.vmware.com">https://tanzu.vmware.com&lt;/a>&lt;/p>
 &lt;p>&lt;strong>Blog:&lt;/strong> &lt;a href="https://tanzu.vmware.com/blog">https://tanzu.vmware.com/blog&lt;/a>&lt;/p>
 &lt;p>&lt;strong>Twitter:&lt;/strong> @vmwaretanzu&lt;/p>
-&lt;p>&lt;strong>Email:&lt;/strong> asktanzu@vmware.com&lt;/p></description></item><item><title>Docs: Course Survey</title><link>https://modernappsninja.github.io/course_repo_template_ct8279/docs/closingsummary/coursesurvey/</link><pubDate>Mon, 12 Oct 2020 20:20:14 -0700</pubDate><guid>https://modernappsninja.github.io/course_repo_template_ct8279/docs/closingsummary/coursesurvey/</guid><description>
-&lt;p>Your Survey response is critical to help ensure we can support the
-business case to continue this program and is greatly appreciated!&lt;/p>
-&lt;p>Completion of the course survey is required to receive a certificate of
-completion for this course.&lt;/p>
-&lt;p>Please complete the Survey for this course at this
-&lt;a href="https://forms.microsoft.com/Pages/ResponsePage.aspx?id=yjiRs-48Skuk1s2D2d1i8AaekO_nWSVMuwFdpjcgcJtURUJJVE1aSUFYTDFYOTdNVURMWE5XOEVFSS4u">link&lt;/a>.&lt;/p></description></item><item><title>Docs: Course Feedback</title><link>https://modernappsninja.github.io/course_repo_template_ct8279/docs/closingsummary/coursefeedback/</link><pubDate>Mon, 12 Oct 2020 20:20:26 -0700</pubDate><guid>https://modernappsninja.github.io/course_repo_template_ct8279/docs/closingsummary/coursefeedback/</guid><description>
-&lt;p>Your feedback for this course is critical to help ensure we can improve
-course content and quality and is greatly appreciated!&lt;/p>
-&lt;p>Completion of the feedback form (issue ticket) is required to receive a
-certificate of completion for this course.&lt;/p>
-&lt;p>The link below opens a ticket where you can provide any free-text
-response you would like to provide including reports of problems or
-issues, suggestions for improvement, or general feedback. You can also
-paste images in the feedback form. &lt;/p>
-&lt;p>Please complete the Feedback form for this course at this
-&lt;a href="https://github.com/ModernAppsNinja/CourseFeedback/issues/new?assignees=&amp;amp;labels=COU-VT7933&amp;amp;template=COU-VT7933-feedback.md&amp;amp;title=">link&lt;/a>.&lt;/p></description></item><item><title>Docs: Course Complete</title><link>https://modernappsninja.github.io/course_repo_template_ct8279/docs/closingsummary/coursecomplete/</link><pubDate>Mon, 12 Oct 2020 20:20:53 -0700</pubDate><guid>https://modernappsninja.github.io/course_repo_template_ct8279/docs/closingsummary/coursecomplete/</guid><description>
-&lt;p>Thank you for completing the course!&lt;/p>
-&lt;p>Please see the progress tab in this course to see a record of your
-assessment grading. If you have completed the course assessments with a
-score above the passing grade, the progress tab will display the option
-to receive a certificate of course completion.&lt;/p>
-&lt;p>Please check out &lt;a href="https://modernapps.ninja/">modernapps.ninja&lt;/a> to see
-additional courses, and join our &lt;a href="https://groups.google.com/forum/#!forum/modernappsninja/join">google
-group&lt;/a> to
-receive regular updates as new courses and content are added
-frequently.&lt;/p></description></item><item><title>Docs: How to submit tests</title><link>https://modernappsninja.github.io/course_repo_template_ct8279/docs/reference/testinstructions/</link><pubDate>Fri, 09 Oct 2020 03:15:26 -0700</pubDate><guid>https://modernappsninja.github.io/course_repo_template_ct8279/docs/reference/testinstructions/</guid><description>
+&lt;p>&lt;strong>Email:&lt;/strong> asktanzu@vmware.com&lt;/p></description></item><item><title>Docs: Course Complete</title><link>https://modernappsninja.github.io/course_repo_template_ct8279/docs/closingsummary/coursecomplete/</link><pubDate>Mon, 12 Oct 2020 20:20:53 -0700</pubDate><guid>https://modernappsninja.github.io/course_repo_template_ct8279/docs/closingsummary/coursecomplete/</guid><description>
+&lt;p>Thank you for completing the course!&lt;/p></description></item><item><title>Docs: How to submit tests</title><link>https://modernappsninja.github.io/course_repo_template_ct8279/docs/reference/testinstructions/</link><pubDate>Fri, 09 Oct 2020 03:15:26 -0700</pubDate><guid>https://modernappsninja.github.io/course_repo_template_ct8279/docs/reference/testinstructions/</guid><description>
 &lt;p>All Modernapps Ninja learning content is publicly accessible and available openly, however a free membership is required to take tests and recieve a certificate of completion for the course. You must first &lt;a href="https://modernapps.ninja/about/membership/">join the community&lt;/a> and register for this course per the insructions in the course introduction section before attempting to submit a test.&lt;/p>
 &lt;p>Ninja tests use devops tools and processes so the testing system itself is educational and provides both experience and validation of foundational devops skills.&lt;/p>
 &lt;h2 id="instructions">Instructions&lt;/h2>
