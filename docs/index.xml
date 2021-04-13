@@ -151,8 +151,8 @@ community.&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="#step-1---open-the-new-course-registration-document-link">Step 1 - Open the new course registration document link&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#step-2---name-your-file">Step 2 - Name your .yml file&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#step-3---add-a-line-to-your-file">Step 3 - Add a line to your file&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#step-4---submit-your-registration-document">Step 4 - Submit your registration document&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#step-3---add-a-line-to-your-file">Step 3 - Add a line to your .yml file&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#step-4---submit-your-registration-document">Step 4 - Submit your .yml registration document&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
@@ -183,10 +183,10 @@ community.&lt;/p>
 &lt;p>The following screenshot shows an example of this step using the github username &lt;code>Oni-no-Hanzo&lt;/code>&lt;/p>
 &lt;p>&lt;strong>Note:&lt;/strong> If needed, you can verify your github username by clicking on your github profile menu, which can be found on the upper right hand corner on any github page if you are signed in.&lt;/p>
 &lt;p>&lt;img src="https://modernapps.ninja/course_repo_template_ct8279/admin/assets/images/course_registration_file_naming.png" alt="Screenshot of File Naming">&lt;/p>
-&lt;h4 id="step-3---add-a-line-to-your-file">Step 3 - Add a line to your file&lt;/h4>
+&lt;h4 id="step-3---add-a-line-to-your-yml-file">Step 3 - Add a line to your .yml file&lt;/h4>
 &lt;p>On line 1 in the document editor, type &lt;code>status: in-progress&lt;/code> as shown in the following screenshot:&lt;/p>
 &lt;p>&lt;img src="https://modernapps.ninja/course_repo_template_ct8279/admin/assets/images/course_registration_file_editing.png" alt="Screenshot of File Editing">&lt;/p>
-&lt;h4 id="step-4---submit-your-registration-document">Step 4 - Submit your registration document&lt;/h4>
+&lt;h4 id="step-4---submit-your-yml-registration-document">Step 4 - Submit your .yml registration document&lt;/h4>
 &lt;p>Scroll to the bottom of the registration document page and click &lt;code>Propose New File&lt;/code> as shown in the following image:&lt;/p>
 &lt;p>&lt;img src="https://github.com/ModernAppsNinja/course_repo_template_ct8279/new/main/static/admin/userdata/registered_members" alt="Propose New File Screenshot">&lt;/p>
 &lt;p>After you click &lt;code>Propose New File&lt;/code>, your browser will be redirected to the &lt;code>Comparing Changes&lt;/code> page with all the configuration all setup so all you sould need to do is click &lt;code>Create Pull Request&lt;/code> &amp;mdash; but before you click, please review the other details shown on the comparing changes and observe that the file you created and the lines added are shown, so you can easily review and verify your proposed changes before submitting.&lt;/p>
