@@ -101,6 +101,7 @@ The testing service uses an Ubuntu Linux host to process automated grading, so i
 Open your preferred text editor and create an answer key file. The file should follow the same format as the following example:
 
 ```yml
+testName: test1
 Question1: a
 Question2: b
 Question3: c
@@ -119,6 +120,7 @@ Enter the following commands to encode your answer file:
 
 ```bash
 prompt$ cat test1key.yml 
+testName: test1
 Question1: a
 Question2: b
 Question3: c
@@ -135,6 +137,7 @@ If you would like to verify your answer key string, you can decode it and ensure
 
 ```bash
 prompt$ cat test1key.yml.base64 | base64 -d
+testName: test1
 Question1: a
 Question2: b
 Question3: c
