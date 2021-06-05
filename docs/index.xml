@@ -68,7 +68,8 @@ Question3:
 &lt;p>The answer key is a simple text document in which the only text should be the question number and correct response for each question without any additional lines.&lt;/p>
 &lt;p>The testing service uses an Ubuntu Linux host to process automated grading, so it is important that you prepare your answer key file on a Linux host or using a IDE or text editor that will save the file in standard Linux LF format.&lt;/p>
 &lt;p>Open your preferred text editor and create an answer key file. The file should follow the same format as the following example:&lt;/p>
-&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-yml" data-lang="yml">&lt;span style="color:#204a87;font-weight:bold">Question1&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline"> &lt;/span>&lt;span style="color:#000">a&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline">
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-yml" data-lang="yml">&lt;span style="color:#204a87;font-weight:bold">testName&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline"> &lt;/span>&lt;span style="color:#000">test1&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline">
+&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline">&lt;/span>&lt;span style="color:#204a87;font-weight:bold">Question1&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline"> &lt;/span>&lt;span style="color:#000">a&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline">
 &lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline">&lt;/span>&lt;span style="color:#204a87;font-weight:bold">Question2&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline"> &lt;/span>&lt;span style="color:#000">b&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline">
 &lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline">&lt;/span>&lt;span style="color:#204a87;font-weight:bold">Question3&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline"> &lt;/span>&lt;span style="color:#000">c&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline">
 &lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline">&lt;/span>&lt;span style="color:#204a87;font-weight:bold">Question4&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline"> &lt;/span>&lt;span style="color:#000">a,b,c&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline">
@@ -79,6 +80,7 @@ Question3:
 &lt;p>This example shows the accepted method of encoding your answer file from the bash cli on an Ubuntu host. If you use a different system or method to encode your file, please know that the file will be decoded and processed by an ubuntu host using the bash command &lt;code>base64 -d&lt;/code>, so please ensure that the encoded string you submit is accurately decoded into your answer key file when decoded with the `base64 -d command.&lt;/p>
 &lt;p>Enter the following commands to encode your answer file:&lt;/p>
 &lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">prompt$ cat test1key.yml
+testName: test1
 Question1: a
 Question2: b
 Question3: c
@@ -91,6 +93,7 @@ prompt$ cat test1key.yml.base64
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>Take note of the final line of the above example output, which is your file encoded in base64, you will need to use this string in the following steps.&lt;/p>
 &lt;p>If you would like to verify your answer key string, you can decode it and ensure that it accurately decodes into the identical file you created before encoding, as shown in the following example:&lt;/p>
 &lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">prompt$ cat test1key.yml.base64 &lt;span style="color:#000;font-weight:bold">|&lt;/span> base64 -d
+testName: test1
 Question1: a
 Question2: b
 Question3: c
