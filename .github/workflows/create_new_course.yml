@@ -296,7 +296,7 @@ jobs:
           cd ${{ env.source_repo_name }}
           sed -i '/^title:/c\title: "${{ github.event.inputs.course_title }}"' content/en/_index.html
           sed -i '/^linkTitle:/c\linkTitle: "${{ github.event.inputs.course_navbar_title }}"' content/en/_index.html
-          sed -i '/cover title=/c\{{< blocks/cover title="This is a test!" image_anchor="top" height="full" color="orange" >}}' content/en/_index.html
+          sed -i '/cover title=/c\{{< blocks/cover title="Welcome to '{{ github.event.inputs.course_title }}'" image_anchor="top" height="full" color="orange" >}}' content/en/_index.html
           cat content/en/_index.html
       - name: envsubst course metadata file
         run: |
@@ -505,7 +505,7 @@ jobs:
           IFS=$'\n'
           File="/tmp/ninja_label_list.json"
           Loops=$(cat $File | jq -r '.[].name' | wc -l)
-          Loopnum=0
+          Loopnum=1
           while [ $Loopnum -lt $Loops ]
           do
             echo "this is loopnum: $Loopnum"
@@ -516,7 +516,7 @@ jobs:
             color=$(cat $File | jq '.['$Loopnum'].color')
             echo "color is $color"
             curl -X POST \
-              -H "Authorization: token $GITHUB_OAUTH_TOKEN" \
+              -H "Authorization: token ${{ secrets.NINJABOTGURU }}" \
               -H "Accept: application/vnd.github.v3+json" \
               "https://api.github.com/repos/modernappsninja/${{ env.course_repo_name }}/labels" \
               -d '{"name": '$name', "description": '$description', "color": '$color'}' \
