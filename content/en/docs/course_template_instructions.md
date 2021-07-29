@@ -14,7 +14,8 @@ weight: 1001
 
 To create a new course: 
 - You must have Collaborator or higher level permissions in the ModernAppsNinja GitHub organization to run this workflow
-- Navigate to the [actions tab of the modernappsninja.github.io repository](https://github.com/ModernAppsNinja/modernappsninja.github.io/actions)
+- Navigate to the [create new course workflow on the actions tab of the new course template repository](https://github.com/ModernAppsNinja/course_repo_template_ct8279/actions/workflows/create_new_course.yml)
+
 - Initiate a `create a new course workflow` action
 - A New course repository will be created with the initial scaffolding setup, based on a copy of this repository
 - Follow these instructions to add your content and set up the course catalog card, tests and the completion certificate

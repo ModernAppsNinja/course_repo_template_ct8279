@@ -296,7 +296,7 @@ jobs:
           cd ${{ env.source_repo_name }}
           sed -i '/^title:/c\title: "${{ github.event.inputs.course_title }}"' content/en/_index.html
           sed -i '/^linkTitle:/c\linkTitle: "${{ github.event.inputs.course_navbar_title }}"' content/en/_index.html
-          sed -i '/cover title=/c\{{< blocks/cover title="Welcome to '{{ github.event.inputs.course_title }}'" image_anchor="top" height="full" color="orange" >}}' content/en/_index.html
+          sed -i '/cover title=/c\{{< blocks/cover title="Welcome to ${{ github.event.inputs.course_title }}" image_anchor="top" height="full" color="orange" >}}' content/en/_index.html
           cat content/en/_index.html
       - name: envsubst course metadata file
         run: |
