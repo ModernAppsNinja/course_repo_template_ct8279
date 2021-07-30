@@ -26,10 +26,10 @@ jobs:
           cat tweet.sh
       - name: post a tweet
         run: |
-          echo "MY_SCREEN_NAME: modernappsninja" > .tweet.client.key
-          echo "MY_LANGUAGE: EN" >> .tweet.client.key
-          echo "CONSUMER_KEY: ${{ secrets.TWITTER_MODERNAPPSBYTANZU_API_KEY }}" >> .tweet.client.key
-          echo "CONSUMER_SECRET: ${{ secrets.TWITTER_MODERNAPPSBYTANZU_API_SECRET_KEY  }}" >> .tweet.client.key
-          echo "ACCESS_TOKEN: ${{ secrets.TWITTER_MODERNAPPSBYTANZU_ACCESS_TOKEN }}" >> .tweet.client.key
-          echo "ACCESS_TOKEN_SECRET: ${{ secrets.TWITTER_MODERNAPPSBYTANZU_ACCESS_TOKEN_SECRET }}" >> .tweet.client.key
+          echo "MY_SCREEN_NAME=modernappsninja" > .tweet.client.key
+          echo "MY_LANGUAGE=EN" >> .tweet.client.key
+          echo "CONSUMER_KEY=${{ secrets.TWITTER_MODERNAPPSBYTANZU_API_KEY }}" >> .tweet.client.key
+          echo "CONSUMER_SECRET=${{ secrets.TWITTER_MODERNAPPSBYTANZU_API_SECRET_KEY  }}" >> .tweet.client.key
+          echo "ACCESS_TOKEN=${{ secrets.TWITTER_MODERNAPPSBYTANZU_ACCESS_TOKEN }}" >> .tweet.client.key
+          echo "ACCESS_TOKEN_SECRET=${{ secrets.TWITTER_MODERNAPPSBYTANZU_ACCESS_TOKEN_SECRET }}" >> .tweet.client.key
           ./tweet.sh post "${{ github.event.inputs.tweet }}" 
