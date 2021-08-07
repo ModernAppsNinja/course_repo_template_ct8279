@@ -24,6 +24,7 @@ jobs:
           "https://raw.githubusercontent.com/piroor/tweet.sh/trunk/tweet.sh" \
           -o tweet.sh
           cat tweet.sh
+          chmod +x tweet.sh
       - name: post a tweet
         env: 
           MY_SCREEN_NAME: modernappsninja
