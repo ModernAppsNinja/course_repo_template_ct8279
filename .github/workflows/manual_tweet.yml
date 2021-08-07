@@ -25,11 +25,24 @@ jobs:
           -o tweet.sh
           cat tweet.sh
       - name: post a tweet
+        env: 
+          MY_SCREEN_NAME: modernappsninja
+          MY_LANGUAGE: EN
+          CONSUMER_KEY: ${{ secrets.TWITTER_MODERNAPPSBYTANZU_API_KEY }}
+          CONSUMER_SECRET: ${{ secrets.TWITTER_MODERNAPPSBYTANZU_API_SECRET_KEY  }}
+          ACCESS_TOKEN: ${{ secrets.TWITTER_MODERNAPPSBYTANZU_ACCESS_TOKEN }}
+          ACCESS_TOKEN_SECRET: ${{ secrets.TWITTER_MODERNAPPSBYTANZU_ACCESS_TOKEN_SECRET }}
         run: |
-          echo "MY_SCREEN_NAME=modernappsninja" > .tweet.client.key
-          echo "MY_LANGUAGE=EN" >> .tweet.client.key
-          echo "CONSUMER_KEY=${{ secrets.TWITTER_MODERNAPPSBYTANZU_API_KEY }}" >> .tweet.client.key
-          echo "CONSUMER_SECRET=${{ secrets.TWITTER_MODERNAPPSBYTANZU_API_SECRET_KEY  }}" >> .tweet.client.key
-          echo "ACCESS_TOKEN=${{ secrets.TWITTER_MODERNAPPSBYTANZU_ACCESS_TOKEN }}" >> .tweet.client.key
-          echo "ACCESS_TOKEN_SECRET=${{ secrets.TWITTER_MODERNAPPSBYTANZU_ACCESS_TOKEN_SECRET }}" >> .tweet.client.key
+          # echo "MY_SCREEN_NAME=modernappsninja" > tweet.client.key
+          # echo "MY_LANGUAGE=EN" >> tweet.client.key
+          # echo "CONSUMER_KEY=${{ secrets.TWITTER_MODERNAPPSBYTANZU_API_KEY }}" >> tweet.client.key
+          # echo "CONSUMER_SECRET=${{ secrets.TWITTER_MODERNAPPSBYTANZU_API_SECRET_KEY  }}" >> tweet.client.key
+          # echo "ACCESS_TOKEN=${{ secrets.TWITTER_MODERNAPPSBYTANZU_ACCESS_TOKEN }}" >> tweet.client.key
+          # echo "ACCESS_TOKEN_SECRET=${{ secrets.TWITTER_MODERNAPPSBYTANZU_ACCESS_TOKEN_SECRET }}" >> tweet.client.key
+          echo $MY_SCREEN_NAME
+          echo $MY_LANGUAGE
+          echo $CONSUMER_KEY
+          echo $CONSUMER_SECRET
+          echo $ACCESS_TOKEN
+          echo $ACCESS_TOKEN_SECRET
           ./tweet.sh post "${{ github.event.inputs.tweet }}" 
